@@ -106,7 +106,7 @@ Proceso Ficha
 						FinSi	
 					FinSi			
 				FinMientras
-				
+				validador_sexo=0;
 				Escribir "Edad";
 				Leer edad_paciente;
 				
@@ -214,6 +214,9 @@ Proceso Ficha
 				Escribir "";
 				Escribir "Presione una tecla para volver al menú principal";
 				Esperar Tecla;
+			5:
+				Escribir "";
+				Escribir "Terminando aplicación";
 				
 			De Otro Modo:
 				Escribir "Opcion No valida";
